@@ -1,0 +1,72 @@
+.container-fluid{background-color: rgb(18, 56, 131);  }
+.container-fluid2{  background-color: #DFE5F5;    }
+.container-fluid3{ background-color: #ACBEE4;    }
+.container-fluid99{ background-color: rgb(223,229,245);    }
+
+#navbarColor02{padding: 0.2%;}
+
+#white{  color: white;    }
+#blue{  color:  #22548F;    }
+
+#font_down{  color:  #2b5ba8 ;    }
+#font_down:hover{color:red ; font-weight: bold;}
+
+
+#submit{ width: 150px;  margin-left: 40%; visibility: hidden;}
+#add_user_btn{ width: 150px;  margin-left: 40%; visibility: hidden;}
+
+
+#btn1{background-color: #E0E5F5; color:#22548F; }
+#btn1:hover{color:red ; font-weight: bold;}
+
+img{
+    margin: 8%;
+
+}
+ .User_Search{
+    margin-left: 2%;
+    margin-top: 2%;
+    font-style: oblique;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 90%;
+ }
+
+ #add_user_form{  visibility: hidden ; }
+ 
+ .Add_user{
+    margin-left: 2%;
+    margin-top: 2%;
+    font-style: oblique;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 90%;
+ }
+
+ .Search_Result{
+    /* visibility: hidden ; */
+    margin-left: 2%;
+    margin-top: 2%;
+    font-style: oblique;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 90%;
+ }
+
+/* #footer_nav{  visibility: hidden;   } */
+
+td{padding-bottom: 2%;}
+
+tr{
+    margin-right: 50%;
+    margin-bottom: 20%;
+    padding-bottom: 5%;
+}
+
+ 
+
+       
+i{padding-top: 1%;}

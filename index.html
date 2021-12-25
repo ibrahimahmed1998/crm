@@ -1,0 +1,160 @@
+<!DOCTYPE html><html lang="en"><head><title>Siebel Banque  </title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+
+    <script> 
+        $(function()
+        {
+        $("#blue_nav").load("./html/main_nav.html"); 
+        $("#icon_nav").load("./html/icon_nav.html"); 
+        $("#select_nav").load("./html/select_nav.html"); 
+        $("#footer_nav").load("./html/footer_nav.html"); 
+        $("#account_details").load("./html/account_details.html"); 
+        $("#scripts").load("./html/scripts.html"); 
+        });
+    </script> 
+
+    <div id="scripts"></div>
+
+</head><body>
+
+    <div id="blue_nav"></div>
+    <div id="icon_nav"></div>
+    <div id="select_nav"></div>
+
+    <nav id="icons" class=" navbar-expand-lg navbar-dark bg-primary2 ">
+        <div class="container-fluid2">            
+            <div class="collapse navbar-collapse" id="navbarColor02">
+    
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <button onclick="home()" id="btn1" type="button" class="btn"><i class="fas fa-home"></i> prospect list </button>
+                    <button onclick="home()" id="btn1" type="button" class="btn"><i class="fas fa-home"></i> contact list </button>  
+                </ul>     
+            </div>
+        </div>
+    </nav>
+
+    <img src="back.jpg" alt="">
+
+    <form action="" > 
+        <table class="User_Search">
+            <tr>
+                <td> email <input id="email" type="text" placeholder="test@gmail.com" > </td>
+                <td > Account  <input id="in_account" type="text" placeholder="1010111000006789" > </td>
+            </tr>  
+            <tr>
+                <td> phone   <input id="in_phone" type="text" placeholder="01207053244" >    </td> 
+                <td>  national id <input id="in_nid" type="text" placeholder="29802180100119">  </td>
+            </tr>  
+
+            <tr>
+                <td>IVR Number   <input id="in_ivr" type="text" placeholder="5113414" ></td>
+                <td>Client ID   <input id="in_cid" type="text" placeholder="123456"></td>
+            </tr>
+
+            <tr>
+             </tr>  
+            
+    </table>
+
+     <button   onclick="f1()" id="submit" type="button" class="btn btn-success"> Search </button>
+
+</form>
+
+<!-- Add_Users -->
+<form action="" id="add_user_form"> 
+    <table class="Add_user">
+        <tr>
+            <td> Full Name <input type="text" placeholder="Ibrahim Test Test" > </td>
+            <td> Phone   <input type="text" placeholder="01207053244" >    </td> 
+        </tr>  
+
+        <tr>
+            <td>  National Num <input type="text" placeholder="29802180100119">  </td>
+            <td>E-mail   <input type="text" placeholder="5113414" ></td>
+
+        </tr>  
+
+        <tr>
+            <td>IVR Number   <input type="text" placeholder="5113414" ></td>
+            <td>Address  <input type="text" placeholder="5113414" ></td>
+
+            </tr>
+
+            <tr>
+
+            <td>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Governorate
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">القاهرة</a>
+                        <a class="dropdown-item" href="#">الجيزة</a>
+                        <a class="dropdown-item" href="#">اسوان</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">اسكندرية</a>
+                    </div>
+                    </div>
+            </td>
+
+            <td>
+
+                <div class="btn-group">
+                    <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Region
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">رمسيس</a>
+                        <a class="dropdown-item" href="#">مدينة نصر</a>
+                        <a class="dropdown-item" href="#"> اكتوبر </a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">القرية الزكية</a>
+                    </div>
+                    </div>
+            </td>
+
+            </tr>
+</table>
+
+</form>
+
+<button  onclick="" id="add_user_btn" type="button" class="btn btn-success"> Add User </button>
+  
+    <table class="Search_Result" > 
+        <tr>
+            <td> Account State <input id="Account_State_id"  type="text" placeholder=" pending" disabled > </td>
+            <td> Phone   <input id="res_phone" type="text" placeholder="01207053244" disabled >    </td> 
+        </tr>  
+
+        <tr>
+            <td> Account Type <input id="Account_Type_id" type="text" placeholder="حساب توفير عائد شهري"  disabled > </td>
+            <td>  National Num <input id="result_n_id"  type="text" placeholder="29802180100119" disabled >  </td>
+        </tr>  
+
+        <tr>
+            <td>IVR Number   <input id="res_ivr_id"  type="text" placeholder="5113414" disabled ></td>
+            <td  style="color: red;">Full Name  <input id="res_name" type="text" placeholder="Ibrahim Test Test" disabled  > </td>
+        </tr>
+
+        <tr>
+            <td>IVR State   <input id="res_ivr_state" type="text" placeholder="InActive" disabled ></td>
+
+            <td>Other   <input id="res__other" type="text" disabled ></td>
+        </tr>  
+        
+    </table>
+    
+
+    <table class="Search_Result" > 
+        <tr>
+            <td> Current currency <input id="Account_Type_id" type="text" value="1500000.98" disabled > </td>
+            <td>  Available currency <input id="result_n_id"  type="text" value="9000.25" disabled >  </td>
+        </tr>  
+    </table>
+
+
+    <div id="footer_nav"></div>
+    <div id="account_details"></div>
+
+</body></html>
