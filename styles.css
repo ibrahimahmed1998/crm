@@ -23,7 +23,8 @@ img{
     margin: 8%;
 
 }
- .User_Search{
+
+ .search_form{
     margin-left: 2%;
     margin-top: 2%;
     font-style: oblique;
@@ -31,11 +32,15 @@ img{
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     width: 90%;
- }
+    visibility: hidden;
+    }
 
- #add_user_form{  visibility: hidden ; }
+   .result_account{
+      visibility: hidden;
+   }
+ #add_user{  visibility: hidden ; }
  
- .Add_user{
+ .add_user{
     margin-left: 2%;
     margin-top: 2%;
     font-style: oblique;
@@ -45,8 +50,8 @@ img{
     width: 90%;
  }
 
- .Search_Result{
-    /* visibility: hidden ; */
+ .search_res{
+    visibility: hidden ;
     margin-left: 2%;
     margin-top: 2%;
     font-style: oblique;
@@ -56,7 +61,14 @@ img{
     width: 90%;
  }
 
-/* #footer_nav{  visibility: hidden;   } */
+ #footer_nav{  
+
+   /* visibility: hidden;  */
+   position: static;
+   top: 130px;
+   right: 0;
+
+   } 
 
 td{padding-bottom: 2%;}
 
@@ -65,8 +77,5 @@ tr{
     margin-bottom: 20%;
     padding-bottom: 5%;
 }
-
- 
-
        
 i{padding-top: 1%;}

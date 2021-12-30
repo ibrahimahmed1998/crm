@@ -1,15 +1,26 @@
-function contacts(){
-    $(".Search_Result").hide();    
+function contacts_btn(){
+
+    //$(".search_res").hide();    
      $("#footer_nav").hide(); 
     $("#User_Data").hide();         $("#add_user_form").hide();   
-    $("#add_user_btn").hide();      $(".User_Search").show();
+    $("#add_user_btn").hide();    
+    $(".search_form").show();
+    $(".search_form").css("visibility","visible");
     $("#submit").show();            $("#submit").css("visibility","visible");
     $("img").hide();
 }
 
-function f1() {
-    $("#submit").hide();        $(".User_Search").hide();
-    $(".Search_Result").show();     $(".Search_Result").css("visibility","visible");
+function acc_link(){
+
+    $(".search_res").show();     $(".search_res").css("visibility","visible");
+    $(".res_acc").hide();
+}
+
+function search_btn(){ 
+    $(".res_acc").show(); 
+    $(".res_acc").css("visibility","visible");
+    $("#submit").hide();        $(".search_form").hide();
+    
     $("img").hide();
     $("#footer_nav").show(); 
 
