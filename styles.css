@@ -11,7 +11,6 @@
 #font_down{  color:  #2b5ba8 ;    }
 #font_down:hover{color:red ; font-weight: bold;}
 
-
 #submit{ width: 150px;  margin-left: 40%; visibility: hidden;}
 #add_user_btn{ width: 150px;  margin-left: 40%; visibility: hidden;}
 
@@ -19,10 +18,7 @@
 #btn1{background-color: #E0E5F5; color:#22548F; }
 #btn1:hover{color:red ; font-weight: bold;}
 
-img{
-    margin: 8%;
-
-}
+img{ margin: 8%;}
 
  .search_form{
     margin-left: 2%;
@@ -35,9 +31,15 @@ img{
     visibility: hidden;
     }
 
-   .result_account{
-      visibility: hidden;
-   }
+   .res_acc{ visibility: hidden; margin-top: 30px;}
+
+    .res_acc tr td{
+      padding-right:100px;
+      padding-left: 20px;
+    }
+
+ .r_a_v{ color: blue;   font-weight: bold;  }
+
  #add_user{  visibility: hidden ; }
  
  .add_user{
@@ -62,7 +64,6 @@ img{
  }
 
  #footer_nav{  
-
    /* visibility: hidden;  */
    position: static;
    top: 130px;
@@ -76,6 +77,6 @@ tr{
     margin-right: 50%;
     margin-bottom: 20%;
     padding-bottom: 5%;
-}
+ }
        
 i{padding-top: 1%;}
