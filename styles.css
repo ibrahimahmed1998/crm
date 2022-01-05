@@ -20,25 +20,7 @@
 
 img{ margin: 8%;}
 
- .search_form{
-    margin-left: 2%;
-    margin-top: 2%;
-    font-style: oblique;
-    font-size: large;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    width: 90%;
-    visibility: hidden;
-    }
 
-   .res_acc{ visibility: hidden; margin-top: 30px;}
-
-    .res_acc tr td{
-      padding-right:100px;
-      padding-left: 20px;
-    }
-
- .r_a_v{ color: blue;   font-weight: bold;  }
 
  #add_user{  visibility: hidden ; }
  
@@ -124,3 +106,5 @@ i{padding-top: 1%;}
  .sr_in{
   width: 145px;
  }
+
+ 

@@ -1,0 +1,33 @@
+.search_form {
+
+    font-weight: bold;
+    width: 90%;
+    visibility: hidden;
+    border-radius: 31px;
+    border: 4px solid lavender;
+    width: 1024px;
+    margin-left: 288px;
+    margin-top: 17px;
+    margin-bottom: 11px;
+    padding: 33px;
+    padding-left: 104px;
+
+}
+
+.s_f_d1 {
+    margin-right: 250px;
+    display: inline-block;
+    padding-bottom: 20px;
+}
+
+.s_f_d2 {
+    margin-right: 242px;
+    display: inline-block;
+    padding-bottom: 20px;
+}
+
+.s_f_d3 {
+    margin-right: 230px;
+    display: inline-block;
+    padding-bottom: 20px;
+}

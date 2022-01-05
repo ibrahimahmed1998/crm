@@ -1,0 +1,68 @@
+.res_acc {
+    padding: 20px;
+    visibility: hidden;
+    margin-top: 30px;
+    border: 2px solid lavender;
+    border-radius: 20px;
+    margin-left: 405px;
+    width: 790px;
+
+}
+
+.r_a_v {
+    color: blue;
+    font-weight: bold;
+}
+
+.res_acc tr td {
+    padding-right: 100px;
+    padding-left: 20px;
+}
+
+.a {
+    margin-right: 290;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.b {
+    display: inline-block;
+    font-weight: bold;
+    margin-left: 256px;
+}
+
+
+.c {
+    display: inline-block;
+    font-weight: bold;
+    margin-left: 256px;
+}
+
+
+.name {
+    display: inline-block;
+    font-weight: bold;
+}
+
+
+.product {
+    display: inline-block;
+    font-weight: bold;
+    left: 707px;
+    position: absolute;
+
+}
+
+
+
+.ivr {
+    display: inline-block;
+    font-weight: bold;
+    left: 1022px;
+    position: absolute;
+}
+
+
+
+
+

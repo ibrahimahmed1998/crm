@@ -1,19 +1,23 @@
-<form action="" > 
-    
-    <table class="search_form">
-        <tr>
-            <td>email <input id="email" type="text" placeholder="test@gmail.com" > </td>
-            <td>account  <input id="in_account" type="text" placeholder="1010111000006789" > </td>
-        </tr>  
-        <tr>
-            <td>phone <input id="in_phone" type="text" placeholder="01207053244" >    </td> 
-            <td>national id <input id="in_nid" type="text" placeholder="29802180100119">  </td>
-        </tr>  
+<form action="">
+    <div   class="search_form" >
 
-        <tr>
-            <td>ivr num <input id="in_ivr" type="text" placeholder="5113414" ></td>
-            <td>client id <input id="in_cid" type="text" placeholder="123456"></td>
-        </tr>  
-    </table>
-    <button   onclick="search_btn()" id="submit" type="button" class="btn btn-success"> Search </button>
+        <div class="s_f_d1">
+          email <input id="email" type="text" placeholder="test@gmail.com">  
+        </div>
+        account <input id="in_account" type="text" placeholder="1010111000006789"><br>  
+
+        <div class="s_f_d2" >
+            phone <input id="in_phone" type="text" placeholder="01207053244">  
+        </div>
+        national id <input id="in_nid" type="text" placeholder="29802180100119"><br>
+
+        <div class="s_f_d3">
+            client id <input id="in_ivr" type="text" placeholder="5113414"> 
+        </div>
+        Related Account <input id="in_cid" type="text" placeholder="123456"><br> 
+
+        ivr num <input id="in_ivr" type="text" placeholder="5113414"> 
+
+        <button onclick="search_btn()" id="submit" type="button"  class="btn btn-primary" style="background-color:lavender; color:blue;" > Search </button>
+    </div>
 </form>
