@@ -1,5 +1,5 @@
 
-onload( home() );
+// onload( home() );
 function home(){
 
     $(".search_form").hide();
