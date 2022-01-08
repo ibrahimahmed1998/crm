@@ -24,6 +24,12 @@ function home(){
 
     $("#footer_nav").hide();
 
+
+    $(".activity").hide();
+    // $("#activity").hide();
+
+    
+
     $("img").show();
 }
 
