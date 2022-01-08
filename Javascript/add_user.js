@@ -1,7 +1,7 @@
 function add_user_f()
      {
         $(".User_Search").hide();
-        $(".Search_Result").hide();
+        $(".search_res_boxed").hide();
         $("#footer_nav").hide();
         $("#User_Data").hide();
         $("img").hide();

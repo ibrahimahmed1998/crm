@@ -1,53 +1,55 @@
 <div class="service_request" style="margin-left: 35px; margin-top: 20px;">
-    <button>New </button>
+
+    <button onclick="new_req()">New </button>
     <button disabled>Cancel   </button>
     <button>Query </button> <br><br><br>
 
-    <a href="#">1-18125497</a>
+    <a onclick="new_sr_box()" id="sr_num" style="visibility: hidden; font-weight: bold;" href="#">1-18125497</a>
 
     <br><br><br>
 
-    <div class="container-boxed">
-        <div class="boxed" >
-            <label for="">sr type &nbsp; </label>
+    <div class="container-boxed" style="visibility: hidden;">
+        <div class="boxed" id="selection" >
+            sr type &nbsp;     <select id="sr_type" onchange="sr()" >
+                <option value="null" selected> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </option>
 
-            <select id="sr_type" onclick="sr()">
-                <option value="Complain">complain</option>
-                <option value="Normal-Cards">depit/prePaid/payroll</option>
-                <option value="Request">request</option>
-                <option value="Callback">callback</option>
+                <option value="Complains">complain</option>
+                <option value="cards_list">depit/prePaid/payroll</option>
+                <option value="request">request</option>
+                <option value="callback">callback</option>
                 <option value="Credit">credit</option>
-                <option value="Reteintion-Team">reteintion-team</option>
-                <option value="Quality">quality</option>
-                <option value="Outbound">outbound</option>
+                <option value="retention_team_list">reteintion-team</option>
+                <option value="quality">quality</option>
+                <option value="outbound">outbound</option>
             </select>    
-                         <br><br> 
-            <label for="">sr subject &nbsp; </label>
-            <select id="subject">
-                <option value="empty">  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    </option>
-                </select>    
-    
+                <br><br> 
+
+            sr subject &nbsp; <select id="subject">   <option id="sub_option"> &nbsp;</option>   </select>  
+                  
+               
                 <br><br>
           <label for=""> ATM ID&nbsp;    </label>   <input type="text" name="" id="">   <br><br>
           <label for=""> Other Subject&nbsp;    </label>   <input type="text" name="" id="">   <br><br>
           <label for=""> Phone&nbsp; </label>   <input type="text" name="" id="">   
         </div>
 
+
         <div class="boxed">
 
             Statue : Open - Cancel - Close - Painding  <br>
 
-            Open Date  : [  ]  <br>
+            Open Date  : <input id="in_account" type="text" placeholder="12/12/2022">   <br>
 
-            Close Date : [  ]  <br>
+            Close Date : <input id="in_account" type="text" placeholder="12/12/2022">  <br>
 
-            Created By : IABDELGAWAD  <br>
+            Created By :  <input id="in_account" type="text" placeholder="IABDELGAWAD">   <br>
 
-            Owner : IABDELGAWAD  <br>
+            Owner :   <input id="in_account" type="text" placeholder="IABDELGAWAD">   <br>
 
-            Team : Charge-Back || فريق ال HUB || بطاقات الخصم الفوري   <br>
 
-            Reason : EGP 
+            Team : Charge-Back || فريق ال HUB || بطاقات الخصم الفوري   <br> 
+
+            Reason :  <input id="in_account" type="text" placeholder="EGP">   <br> 
 
             
 
@@ -61,7 +63,7 @@
         </div>  
     </div>
  
-    <div class="container-boxed">
+    <div class="container-boxed " style="visibility: hidden">
 
         <div class="boxed2" >
             <label for="">Amount&nbsp;</label>         <input class="sr_in" type="text" name="" id="">     &nbsp; 
@@ -71,16 +73,23 @@
             <label for="">Date &nbsp; </label>           <input  class="sr_in" type="text" name="" id="">
         </div>
     
+        <button  class="btn btn-primary save-btn"> Save </button>
+
         <div class="boxed" >
+
+
             
         <label for="">  </label>   <textarea name="Comment" id="" cols="30" rows="10"> Comment </textarea>
       
         </div>
 
+
         <div class="boxed" >
 
             <label for="">  </label>   <textarea name="Description" id="" cols="30" rows="10"> Description </textarea>  
         </div>
+
+
 
     
       

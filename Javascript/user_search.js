@@ -1,7 +1,11 @@
 function contacts_btn(){
 
+    home();
+    unhome();
+
     //$(".search_res").hide();    
-     $("#footer_nav").hide(); 
+    //  $("#footer_nav").hide(); 
+
     $("#User_Data").hide();         $("#add_user_form").hide();   
     $("#add_user_btn").hide();    
     $(".search_form").show();
@@ -12,7 +16,8 @@ function contacts_btn(){
 
 function acc_link(){
 
-    $(".search_res").show();     $(".search_res").css("visibility","visible");
+    $(".search_res_boxed").show();   
+    $(".search_res_boxed").css("visibility","visible");
     $(".res_acc").hide();
 }
 
