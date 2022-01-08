@@ -16,12 +16,20 @@ function contacts_btn(){
 
 function acc_link(){
 
+    home();
+    unhome();
+    
     $(".search_res_boxed").show();   
     $(".search_res_boxed").css("visibility","visible");
     $(".res_acc").hide();
 }
 
 function search_btn(){ 
+
+    home();
+    unhome();
+    
+
     $(".res_acc").show(); 
     $(".res_acc").css("visibility","visible");
     $("#submit").hide();        $(".search_form").hide();

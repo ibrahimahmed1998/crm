@@ -17,7 +17,10 @@ function home(){
     $("#add_user_btn").hide();
     $("#add_user").hide();
 
+
     $(".service_request").hide();
+    $("#sr_num").hide();
+    $(".container-boxed").hide();
 
     $("#footer_nav").hide();
 
@@ -29,7 +32,6 @@ function home(){
 function unhome() {
 
     $("#footer_nav").show();
-
     $("img").hide();
 
 }
